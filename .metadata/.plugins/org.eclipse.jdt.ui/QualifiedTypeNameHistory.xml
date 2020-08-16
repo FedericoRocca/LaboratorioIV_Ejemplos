@@ -9,6 +9,11 @@
 <fullyQualifiedTypeName name="dominio.Animal"/>
 <fullyQualifiedTypeName name="dominio.Perro"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="Ejercicio1.Empleado"/>
+<fullyQualifiedTypeName name="ejemplo1.Persona"/>
+<fullyQualifiedTypeName name="ejemplo1.ICantar"/>
+<fullyQualifiedTypeName name="ejemplo1.Cantante"/>
+<fullyQualifiedTypeName name="ejemplo1.Pajaro"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ejemplo2.Barcelona"/>
 </qualifiedTypeNameHistroy>
