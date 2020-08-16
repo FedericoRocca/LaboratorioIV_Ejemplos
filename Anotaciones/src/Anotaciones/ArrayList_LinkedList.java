@@ -1,7 +1,6 @@
-
-public class Anotaciones
+package Anotaciones;
+public class ArrayList_LinkedList
 {
-    
     /*
      * Los arraylist almacenan la información de manera contigua. Esto quiere decir que al momento de agregar un
      * elemento al arraylist se tiene que volver a alocal todo el vector si el mismo no tiene espacio, por lo que
@@ -10,8 +9,5 @@ public class Anotaciones
      *
      * Los Linkedlist es una lista enlazada normal. La lectura es lenta al igual que el eliminado, pero el agregado es
      * rápido.
-     *
-     *
      */
-    
 }
