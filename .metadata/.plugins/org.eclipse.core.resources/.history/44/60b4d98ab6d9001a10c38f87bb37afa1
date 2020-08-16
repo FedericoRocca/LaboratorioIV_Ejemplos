@@ -1,0 +1,12 @@
+package dominio;
+
+public class Main
+{
+    
+    public static void main(String[] args)
+    {
+        ArticuloGimnasio gim = new ArticuloGimnasio();
+        
+    }
+    
+}

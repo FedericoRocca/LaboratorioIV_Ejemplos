@@ -1,0 +1,10 @@
+package ejemplo1;
+
+public interface ICantar
+{
+    // Las interfaces siempre... SIEMPRE tienen métodos abstractos
+    public abstract void cantar();
+    
+    // Las variables son publicas, constantes y estáticas
+    // public final static varint variable = 10;...
+}

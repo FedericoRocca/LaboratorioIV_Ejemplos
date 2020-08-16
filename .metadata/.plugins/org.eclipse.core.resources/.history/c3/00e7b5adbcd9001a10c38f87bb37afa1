@@ -1,0 +1,13 @@
+package dominio;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        ArticuloGimnasio gim = new ArticuloGimnasio();
+        gim.setNombre("Articulo Gim 1");
+        gim.setPeso(10);
+        System.out.println( gim.toString() );
+        System.out.println(gim.pesoEnGramos());
+    }
+}

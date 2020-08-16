@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package dominio;
+
+/**
+ * @author Federico
+ *
+ */
+public class Principal {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		Articulo art = new Articulo(); 
+		System.out.println("ID: " + art.getId() + ", nombre: " + art.getNombre() );
+		
+		art.setId(2);
+		art.setNombre("Articulo 2");
+		System.out.println("ID: " + art.getId() + ", nombre: " + art.getNombre() );
+		
+		System.out.println(art.toString());
+	}
+
+}

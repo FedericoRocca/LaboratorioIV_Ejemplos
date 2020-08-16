@@ -1,0 +1,46 @@
+package dominio;
+
+public class ArticuloGimnasio extends Articulo
+{
+    private int peso;
+    
+    //Constructores
+    public ArticuloGimnasio()
+    {
+        //Constructor de artículo
+        super();
+    }
+    
+    public ArticuloGimnasio(String nombre, int _peso)
+    {
+        //Constructor de artículo que recibe parámetros
+        super(nombre);
+        peso = _peso;
+    }
+
+    //Getters/setters
+    /**
+     * @return the peso
+     */
+    public int getPeso()
+    {
+        return peso;
+    }
+
+    /**
+     * @param peso the peso to set
+     */
+    public void setPeso(int peso)
+    {
+        this.peso = peso;
+    }
+
+    /* (non-Javadoc)
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString()
+    {
+        return "peso: " + peso + ", " + super.toString();
+    }
+}

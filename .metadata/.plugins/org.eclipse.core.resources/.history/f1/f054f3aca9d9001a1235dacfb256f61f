@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package dominio;
+
+/**
+ * @author Federico
+ *
+ */
+public class Articulo {
+	
+	//Atributos
+	int id;
+	String nombre;
+	
+}

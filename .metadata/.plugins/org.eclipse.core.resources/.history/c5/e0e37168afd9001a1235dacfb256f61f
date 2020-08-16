@@ -1,0 +1,61 @@
+/**
+ * 
+ */
+package dominio;
+
+/**
+ * @author Federico
+ *
+ */
+public class Articulo {
+	
+	//Atributos
+	private int id;
+	private String nombre;
+	private static int contArticulos = 0;
+	
+	//Constructores
+	public Articulo()
+	{
+		contArticulos++;
+		id = contArticulos;
+		nombre = "Sin nombre";
+	}
+	
+	public Articulo(String _nombre)
+	{
+		contArticulos++;
+		id = contArticulos;
+		nombre = _nombre;
+	}
+	
+	//Getters/setters
+	public int getId() 
+	{
+		return id;
+	}
+	
+	public void setId(int id) 
+	{
+		this.id = id;
+	}
+	
+	public String getNombre() 
+	{
+		return nombre;
+	}
+	
+	public void setNombre(String nombre) 
+	{
+		this.nombre = nombre;
+	}
+
+	// Metodo toString()
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "ID: " + id + ", Nombre: " + nombre;
+	}
+}

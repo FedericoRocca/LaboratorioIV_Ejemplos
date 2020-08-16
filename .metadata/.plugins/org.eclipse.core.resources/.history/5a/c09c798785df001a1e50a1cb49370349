@@ -1,0 +1,9 @@
+package ejemplo1;
+
+public interface ICantar
+{
+    // Las interfaces siempre... SIEMPRE tienen métodos abstractos
+    public abstract void cantar();
+    
+    // Los que se encuentra son métodos publicos, constantes y estáticos
+}

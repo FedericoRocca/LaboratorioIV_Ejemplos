@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package dominio;
+
+/**
+ * @author Federico
+ *
+ */
+public class Principal {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		// Constructor vacio
+		Articulo art1 = new Articulo(); 
+		System.out.println("ID: " + art1.getId() + ", nombre: " + art1.getNombre() );
+		
+		// Uso de setter
+		art1.setNombre("Articulo 1");
+		System.out.println("ID: " + art1.getId() + ", nombre: " + art1.getNombre() );
+		
+		// Uso de ToString overrideado
+		System.out.println(art1.toString());
+		
+		Articulo art2 = new Articulo("Articulo 2"); 
+		System.out.println(art2.toString());
+		
+		Articulo art3 = new Articulo("Articulo 3");
+		System.out.println(art3.toString());
+		
+		// Método estático
+		System.out.println("Proximo ID de artículo a generar: " + Articulo.nextID());
+	}
+}

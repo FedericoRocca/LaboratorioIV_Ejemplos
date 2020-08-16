@@ -1,0 +1,34 @@
+package dominio;
+
+public class Animal
+{
+    private String nombre;
+
+    //Constructores
+    public Animal()
+    {
+        nombre = "Sin nombre";
+    }
+    
+    public Animal(String _nombre)
+    {
+        nombre = _nombre;
+    }
+    
+    // Getters/Setters
+    /**
+     * @return the nombre
+     */
+    public String getNombre()
+    {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombre(String nombre)
+    {
+        this.nombre = nombre;
+    }
+}

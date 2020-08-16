@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package dominio;
+
+/**
+ * @author Federico
+ *
+ */
+public class Articulo {
+	
+}

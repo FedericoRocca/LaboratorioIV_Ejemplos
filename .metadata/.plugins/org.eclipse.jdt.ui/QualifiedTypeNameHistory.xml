@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="dominio.Articulo"/>
+<fullyQualifiedTypeName name="dominio.ArticuloGimnasio"/>
+<fullyQualifiedTypeName name="java.lang.reflect.GenericArrayType"/>
+<fullyQualifiedTypeName name="java.lang.invoke.ConstantCallSite"/>
+<fullyQualifiedTypeName name="dominio.Gato"/>
+<fullyQualifiedTypeName name="dominio.Animal"/>
+<fullyQualifiedTypeName name="dominio.Perro"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Ejercicio1.Empleado"/>
+</qualifiedTypeNameHistroy>

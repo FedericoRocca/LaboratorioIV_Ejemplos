@@ -1,0 +1,12 @@
+package dominio;
+
+public class Perro extends Animal
+{
+    private String raza;
+    
+    public Perro()
+    {
+        raza = "Sin raza";
+        
+    }
+}
