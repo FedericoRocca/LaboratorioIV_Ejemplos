@@ -1,6 +1,6 @@
 package ejemplo2;
 
-public class Barcelona
+public class Barcelona implements IEquipo
 {
     private String fechaInauguracion;
 
@@ -38,6 +38,12 @@ public class Barcelona
     public Barcelona()
     {
         super();
+    }
+
+    @Override
+    public String devuelveInformacion()
+    {
+        return "Barcelona...";
     }
     
 }

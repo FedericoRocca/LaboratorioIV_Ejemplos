@@ -3,7 +3,7 @@ package ejemplo2;
 public class Messi
 {
     private String nacionalidad;
-    private Barcelona barcelona;
+    private IEquipo equipo;
 
     /**
      * @return the nacionalidad
@@ -21,10 +21,11 @@ public class Messi
         this.nacionalidad = nacionalidad;
     }
 
-    public Messi(String nacionalidad)
+    public Messi(String nacionalidad, IEquipo _equipo)
     {
         super();
         this.nacionalidad = nacionalidad;
+        equipo = _equipo;
     }
 
     public Messi()
@@ -38,7 +39,23 @@ public class Messi
     @Override
     public String toString()
     {
-        return "Messi [nacionalidad=" + nacionalidad + "]";
+        return "Messi [nacionalidad=" + nacionalidad + ", "+ equipo.toString() + "]";
+    }
+
+    /**
+     * @return the barcelona
+     */
+    public IEquipo getEquipo()
+    {
+        return equipo;
+    }
+
+    /**
+     * @param barcelona the barcelona to set
+     */
+    public void setEquipo(IEquipo _equipo)
+    {
+        this.equipo = _equipo;
     }
     
 }
