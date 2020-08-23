@@ -27,5 +27,19 @@
 <fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="ejemplo5_TreeSet.Empleados"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageTranscoder"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.Runtime"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="ejemplo4_CreandoExcepciones.FaltaArrobaException"/>
+<fullyQualifiedTypeName name="ejemplo4_CreandoExcepciones.FaltaPuntoException"/>
+<fullyQualifiedTypeName name="ejemplo4_CreandoExcepciones.Mail"/>
 </qualifiedTypeNameHistroy>
