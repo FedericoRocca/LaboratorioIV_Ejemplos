@@ -14,6 +14,18 @@
 <fullyQualifiedTypeName name="ejemplo1.ICantar"/>
 <fullyQualifiedTypeName name="ejemplo1.Cantante"/>
 <fullyQualifiedTypeName name="ejemplo1.Pajaro"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ejemplo2.Messi"/>
 <fullyQualifiedTypeName name="ejemplo2.Barcelona"/>
+<fullyQualifiedTypeName name="ejemplo2.IEquipo"/>
+<fullyQualifiedTypeName name="ejemplo2.Juventus"/>
+<fullyQualifiedTypeName name="java.awt.PageAttributes"/>
+<fullyQualifiedTypeName name="ejemplo1_Equals.Persona"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
+<fullyQualifiedTypeName name="ejemplo4_HashSet.Libro"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="ejemplo5_TreeSet.Persona2"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="ejemplo5_TreeSet.Empleados"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
