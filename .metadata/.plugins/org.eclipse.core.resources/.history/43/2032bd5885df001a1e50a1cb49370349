@@ -1,7 +1,0 @@
-package ejemplo1;
-
-public interface ICantar
-{
-    // Las interfaces siempre... SIEMPRE tienen métodos abstractos
-    public void cantar();
-}

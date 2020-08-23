@@ -29,12 +29,9 @@
 <fullyQualifiedTypeName name="ejemplo5_TreeSet.Empleados"/>
 <fullyQualifiedTypeName name="javax.imageio.ImageTranscoder"/>
 <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="java.lang.Boolean"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.Runtime"/>
@@ -42,4 +39,19 @@
 <fullyQualifiedTypeName name="ejemplo4_CreandoExcepciones.FaltaArrobaException"/>
 <fullyQualifiedTypeName name="ejemplo4_CreandoExcepciones.FaltaPuntoException"/>
 <fullyQualifiedTypeName name="ejemplo4_CreandoExcepciones.Mail"/>
+<fullyQualifiedTypeName name="java.security.KeyStore.PrivateKeyEntry"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="ejemplo1.Archivo"/>
+<fullyQualifiedTypeName name="java.lang.EnumConstantNotPresentException"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.awt.LinearGradientPaint"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ejemplo2_threads.Mensaje"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
 </qualifiedTypeNameHistroy>

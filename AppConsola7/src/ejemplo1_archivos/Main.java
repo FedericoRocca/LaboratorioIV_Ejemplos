@@ -1,4 +1,4 @@
-package ejemplo1;
+package ejemplo1_archivos;
 
 public class Main
 {
