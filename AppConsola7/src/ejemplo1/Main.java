@@ -23,6 +23,14 @@ public class Main
         
         System.out.println("Leemos el archivo caracter por caracter");
         file.readFileByChars();
+        
+        System.out.println("Escribimos el archivo por lineas");
+        file.writeByLine("Linea 1\n");
+        file.writeByLine("Linea 2\n");
+        file.writeByLine("Linea 3\n");
+        
+        System.out.println("Leemos el archivo por lineas");
+        file.readByLine();
     }
     
 }

@@ -1,9 +1,11 @@
 package ejemplo1;
 
+import java.awt.LinearGradientPaint;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.security.KeyStore.PrivateKeyEntry;
 
 public class Archivo
 {
@@ -68,6 +70,45 @@ public class Archivo
                 System.out.print(_char);
                 c = file.read();
             }
+            file.close();
+        }
+        catch (Exception e)
+        {
+            System.out.println("Se produjo una excepción al leer el archivo: ");
+            e.printStackTrace();
+        }
+    }
+    
+    public void writeByLine(String toWrite)
+    {
+        try
+        {
+            FileWriter file = new FileWriter(path, true);
+            BufferedWriter buffer = new BufferedWriter(file);
+            buffer.write(toWrite);
+            buffer.close();
+            file.close();
+        }
+        catch (Exception e)
+        {
+            System.out.println("Se produjo una excepción al escribir el archivo: ");
+            e.printStackTrace();
+        }
+    }
+    
+    public void readByLine()
+    {
+        try
+        {
+            FileReader file = new FileReader(path);
+            BufferedReader buffer = new BufferedReader(file);
+            String line = buffer.readLine();
+            while( line != null )
+            {
+                System.out.println(line);
+                line = buffer.readLine();
+            }
+            buffer.close();
             file.close();
         }
         catch (Exception e)
