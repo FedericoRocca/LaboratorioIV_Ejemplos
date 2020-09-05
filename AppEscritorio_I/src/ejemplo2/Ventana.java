@@ -1,5 +1,9 @@
 package ejemplo2;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.Action;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
@@ -20,6 +24,8 @@ public class Ventana extends JFrame
         setLayout(null);
         btn.setText("Texto");
         btn.setBounds(10, 10, 140, 30);
+        btn.addActionListener(new eventobtn());
+        
         getContentPane().add(btn);
     }
     
@@ -27,4 +33,16 @@ public class Ventana extends JFrame
     {
         setVisible(state);
     }
+    
+}
+
+class eventobtn implements ActionListener
+{
+
+    @Override
+    public void actionPerformed(ActionEvent e)
+    {
+        System.out.println("btn presionado");
+    }
+    
 }
