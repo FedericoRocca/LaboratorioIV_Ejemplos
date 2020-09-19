@@ -48,6 +48,6 @@ public class Categorias
     @Override
     public String toString()
     {
-        return nombre;
+        return id + " - " + nombre;
     } 
 }
