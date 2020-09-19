@@ -14,8 +14,12 @@ import javax.swing.JTextField;
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
+
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.event.ListSelectionEvent;
 
 public class Ventana extends JFrame
 {
@@ -73,6 +77,16 @@ public class Ventana extends JFrame
         contentPane.add(txtID);
         
         listCategorias = new JList<Categorias>();
+        listCategorias.addListSelectionListener(new ListSelectionListener() {
+            public void valueChanged(ListSelectionEvent arg0) {
+                if( listCategorias.getSelectedIndex() != -1 )
+                {
+                    dlModel.remove(listCategorias.getSelectedIndex());
+                    JOptionPane.showMessageDialog(null, "Se eliminó la categoría");
+                }
+            }
+        });
+        
         listCategorias.setBounds(10, 99, 489, 228);
         contentPane.add(listCategorias);
         
